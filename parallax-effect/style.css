@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #000000;
+}
+
+main {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  background-image: url(assets/running.gif), url(assets/fances.png), url(assets/houses.png),
+    url(assets/buildings.png), url(assets/sky.png);
+  background-size: 800px, 350px, 800px, 2500px, cover;
+  background-position: center bottom, 0px bottom, 0px bottom, 0px bottom, center center;
+  background-repeat: no-repeat, repeat-x, repeat-x, repeat-x, no-repeat;
+  opacity: 0;
+  transition: background-position 2s linear, opacity 1s cubic-bezier(1, 0, 1, 0.88);
+}
