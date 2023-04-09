@@ -14,7 +14,7 @@ This repository contains a collection of JavaScript projects for developers of a
 
 ### How to use this repository
 
-Each project is in its own folder and includes the necessary files to complete it. While detailed instructions are not provided, you can view a visual demo of the project in the list and try to replicate it on your own. If you encounter issues or need inspiration, you can use the code as a guide or search online resources to assist you.
+Each project is in its own folder and includes the necessary files to complete it. While detailed instructions are not provided, you can view a visual demo of the project in the [list](https://github.com/MaxDecapitars/1Day1Project#project-list) and try to replicate it on your own. If you encounter issues or need inspiration, you can use the code as a guide or search online resources to assist you.
 
 To get started, clone the repository to your computer and choose a project that interests you. Delete the HTML, CSS, and JS files to start from scratch on your version of the project. Enjoy improving your programming skills!
 
