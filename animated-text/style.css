@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: #000000;
+  perspective: 20rem;
+}
+
+@keyframes transformingIdeas {
+  0% {
+    transform: rotateX(0);
+  }
+
+  25% {
+    transform: rotateX(-90deg);
+  }
+
+  50% {
+    transform: rotateX(-180deg);
+  }
+
+  75% {
+    transform: rotateX(-270deg);
+  }
+
+  100% {
+    transform: rotateX(-360deg);
+  }
+}
+
+.container {
+  /* margin: 0 auto; */
+  width: 15rem;
+  height: 6rem;
+  position: relative;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 6rem;
+  animation: transformingIdeas 10s cubic-bezier(0.37, -0.22, 0.26, 1.34) 0s infinite;
+  transform-style: preserve-3d;
+}
+
+.content {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: #ffffff;
+}
+
+.text-1 {
+  background-image: linear-gradient(#0000, #2b3467 15% 85%, #0000);
+  transform: translateZ(3rem);
+}
+
+.text-2 {
+  background-image: linear-gradient(#0000, #fcffe7 15% 85%, #0000);
+  color: #000000;
+  transform: rotateX(90deg) translateZ(3rem);
+}
+
+.text-3 {
+  background-image: linear-gradient(#0000, #bad7e9 15% 85%, #0000);
+  color: #000000;
+  transform: rotateX(180deg) translateZ(3rem);
+}
+
+.text-4 {
+  background-image: linear-gradient(#0000, #eb455f 15% 85%, #0000);
+  transform: rotateX(270deg) translateZ(3rem);
+}
