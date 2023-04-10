@@ -36,8 +36,6 @@ const loadQuestionsError = () => {
 };
 
 const fillForm = (qIndex) => {
-  console.log(questions);
-
   $formLegend.textContent = questions[qIndex].question;
   $formOptionOne.textContent = questions[qIndex].options[0];
   $formOptionTwo.textContent = questions[qIndex].options[1];
@@ -104,7 +102,6 @@ $form.addEventListener('submit', (e) => {
   e.preventDefault();
   if (!$form.option.value) return;
 
-  console.log($form.option.value);
   answers.push(Number.parseInt($form.option.value));
 
   if (questionIndex >= questions.length) {
@@ -114,6 +111,4 @@ $form.addEventListener('submit', (e) => {
     fillForm(questionIndex);
     $form.reset();
   }
-
-  console.log(answers);
 });
