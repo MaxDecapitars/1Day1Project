@@ -1,0 +1,52 @@
+[
+  {
+    "question": "In what year was Google founded?",
+    "options": ["1998", "2001", "2004"],
+    "answer": 1
+  },
+  {
+    "question": "What is the longest river in the world?",
+    "options": ["Nile", "Amazon", "Yangtze"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the author of the novel 'One Hundred Years of Solitude'?",
+    "options": ["Pablo Neruda", "Gabriel Garcia Marquez", "Jorge Luis Borges"],
+    "answer": 2
+  },
+  {
+    "question": "What is the largest planet in the solar system?",
+    "options": ["Venus", "Saturn", "Jupiter"],
+    "answer": 3
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "options": ["Beijing", "Seoul", "Tokyo"],
+    "answer": 3
+  },
+  {
+    "question": "Who was the first President of the United States?",
+    "options": ["George Washington", "Thomas Jefferson", "John Adams"],
+    "answer": 1
+  },
+  {
+    "question": "In which country is the Eiffel Tower located?",
+    "options": ["England", "France", "Italy"],
+    "answer": 2
+  },
+  {
+    "question": "Which movie won the Best Picture Oscar in 2021?",
+    "options": ["Nomadland", "The Trial of the Chicago 7", "Minari"],
+    "answer": 1
+  },
+  {
+    "question": "What is the fastest animal in the world?",
+    "options": ["Cheetah", "Leopard", "Tiger"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the author of the novel '1984'?",
+    "options": ["George Orwell", "Aldous Huxley", "Ray Bradbury"],
+    "answer": 1
+  }
+]

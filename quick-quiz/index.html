@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quick Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Quick Quiz</h1>
+
+      <form class="quiz d-none">
+        <legend></legend>
+
+        <div class="options">
+          <input class="d-none" type="radio" name="option" value="1" id="option-1" />
+          <label id="label-1" for="option-1">1</label>
+          <input class="d-none" type="radio" name="option" value="2" id="option-2" />
+          <label id="label-2" for="option-2">2</label>
+          <input class="d-none" type="radio" name="option" value="3" id="option-3" />
+          <label id="label-3" for="option-3">3</label>
+        </div>
+
+        <button class="continue" type="submit">Continue</button>
+      </form>
+      <button type="button" class="start">start</button>
+
+      <article class="result-container d-none">
+        <h2>Result</h2>
+        <h3></h3>
+      </article>
+    </main>
+
+    <template id="result-template">
+      <section class="result-content">
+        <h4></h4>
+
+        <ul>
+          <li class="response-1"></li>
+          <li class="response-2"></li>
+          <li class="response-3"></li>
+        </ul>
+      </section>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>
