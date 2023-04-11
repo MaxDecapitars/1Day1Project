@@ -1,0 +1,95 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  justify-content: center;
+  background: center/cover url(background.jpg);
+  overflow: hidden;
+}
+
+.login-form {
+  padding: 1rem;
+  width: 15rem;
+  position: absolute;
+  top: calc(50% - 11rem);
+  text-align: center;
+  box-shadow: 0 0 0.5rem 0.01rem #5f1d1d;
+  backdrop-filter: blur(3rem);
+  opacity: 1;
+  transition: top 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.hidden {
+  top: 100%;
+  opacity: 0;
+}
+
+.login-form > * {
+  margin: 1rem 0;
+}
+
+.login-form legend {
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.input {
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  border-bottom: thin solid #ffffff;
+  background-color: inherit;
+}
+
+.login-form > div {
+  position: relative;
+  height: 4rem;
+}
+
+.label {
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  color: #00000080;
+  font-size: 0.9rem;
+  transition: top 0.3s ease-in-out, font-size 0.3s ease-in-out, color 0.3s ease-in-out;
+  cursor: text;
+}
+
+.label-active {
+  top: -1.5rem;
+  color: #000000;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  width: 30%;
+  font-size: 1rem;
+  background-color: inherit;
+  border: none;
+  border-bottom: thin solid #00ffff;
+  transition: width 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  width: 100%;
+}

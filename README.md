@@ -6,12 +6,13 @@ This repository contains a collection of JavaScript projects for developers of a
 
 ### Project List
 
-| Project                                                                                    | Demo     |
-| ------------------------------------------------------------------------------------------ | -------- |
-| [Digital Clock](https://github.com/MaxDecapitars/1Day1Project/tree/main/digital-clock)     | [View]() |
-| [Parallax Effect](https://github.com/MaxDecapitars/1Day1Project/tree/main/parallax-effect) | [View]() |
-| [Animated Text](https://github.com/MaxDecapitars/1Day1Project/tree/main/animated-text)     | [View]() |
-| [Quick Quiz](https://github.com/MaxDecapitars/1Day1Project/tree/main/quick-quiz)           | [View]() |
+| Project                                                                                            | Demo     |
+| -------------------------------------------------------------------------------------------------- | -------- |
+| [Digital Clock](https://github.com/MaxDecapitars/1Day1Project/tree/main/digital-clock)             | [View]() |
+| [Parallax Effect](https://github.com/MaxDecapitars/1Day1Project/tree/main/parallax-effect)         | [View]() |
+| [Animated Text](https://github.com/MaxDecapitars/1Day1Project/tree/main/animated-text)             | [View]() |
+| [Quick Quiz](https://github.com/MaxDecapitars/1Day1Project/tree/main/quick-quiz)                   | [View]() |
+| [Animated Login Page](https://github.com/MaxDecapitars/1Day1Project/tree/main/animated-login-page) | [View]() |
 
 ### How to use this repository
 

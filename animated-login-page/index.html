@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <form class="login-form hidden">
+        <legend>User Login</legend>
+
+        <div>
+          <input
+            class="input"
+            type="text"
+            autocomplete="username"
+            id="username"
+            name="username"
+            value="" />
+          <label class="label" for="username">Your username</label>
+        </div>
+        <div>
+          <input
+            class="input"
+            type="password"
+            autocomplete="current-password"
+            id="password"
+            name="password"
+            value="" />
+          <label class="label" for="password">Your password</label>
+        </div>
+
+        <button type="button">Login</button>
+      </form>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
