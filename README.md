@@ -13,6 +13,7 @@ This repository contains a collection of JavaScript projects for developers of a
 | [Animated Text](https://github.com/MaxDecapitars/1Day1Project/tree/main/animated-text)             | [View]() |
 | [Quick Quiz](https://github.com/MaxDecapitars/1Day1Project/tree/main/quick-quiz)                   | [View]() |
 | [Animated Login Page](https://github.com/MaxDecapitars/1Day1Project/tree/main/animated-login-page) | [View]() |
+| [Testimonial Page](https://github.com/MaxDecapitars/1Day1Project/tree/main/testimonial-page)       | [View]() |
 
 ### How to use this repository
 

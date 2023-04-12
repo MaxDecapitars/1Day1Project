@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #fdf4f5, #c0dbea);
+}
+
+.testimonials {
+  width: 80%;
+  max-width: 30rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem #00000090;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  overflow: hidden;
+}
+
+.testimonial-container {
+  display: grid;
+  grid-template-columns: repeat(7, 100%);
+  align-items: center;
+  transition: transform 1s ease-in-out;
+}
+
+.testimonial-card {
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.img {
+  padding: 0.1rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1rem;
+  border: 2px dashed #4a00e0;
+}
+
+.testimony {
+  margin: 0;
+  margin-top: 1rem;
+  font-style: oblique;
+  text-align: justify;
+}
+
+.testimony::after {
+  content: '\201D';
+}
+
+.testimony::before {
+  content: '\201C';
+}
+
+.error {
+  color: #dd1155;
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Ethan Kim",
+    "testimony": "I bought a product and was very satisfied with the quality and price. Additionally, the shipping was very fast. I will definitely buy from here again.",
+    "profile_img": "ethan-kim.png"
+  },
+  {
+    "name": "Olivia Martin",
+    "testimony": "Excellent customer service. They helped me solve a problem quickly and efficiently. I definitely recommend this company.",
+    "profile_img": "olivia-martin.png"
+  },
+  {
+    "name": "Juan Perez",
+    "testimony": "I am very happy with the service I received. They were very professional and friendly at all times. I definitely recommend them.",
+    "profile_img": "juan-perez.png"
+  },
+  {
+    "name": "Mia Lee",
+    "testimony": "Thanks to this company, I was able to find the job of my dreams. The recruitment team was very helpful and guided me throughout the process. I highly recommend them!",
+    "profile_img": "mia-lee.png"
+  },
+  {
+    "name": "Benjamin Adams",
+    "testimony": "Thanks to their services, I was able to expand my business. The marketing team provided me with very useful tools to reach my target audience. Highly recommended!",
+    "profile_img": "benjamin-adams.png"
+  },
+  {
+    "name": "Emma Wilson",
+    "testimony": "I bought a product from this company and was delighted with the quality and attention I received. The staff is very friendly and helpful. I will definitely buy here again!",
+    "profile_img": "emma-wilson.png"
+  },
+  {
+    "name": "Lucas Thompson",
+    "testimony": "I loved the experience of working with this company. The design team did an exceptional job and the final result exceeded my expectations. I recommend them!",
+    "profile_img": "lucas-thompson.png"
+  }
+]
