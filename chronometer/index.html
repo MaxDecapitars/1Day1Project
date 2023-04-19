@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chronometer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="panel-time">
+        <span class="time digital-font">00:00</span><small class="ms digital-font">.00</small>
+        <div class="buttons">
+          <button class="btn-reset" type="button">Reset</button>
+          <button class="btn-split d-none" type="button">Split</button>
+          <button class="btn-start" type="button">Start</button>
+          <button class="btn-stop d-none" type="button">Stop</button>
+        </div>
+      </section>
+      <section class="panel-laps d-none">
+        <table class="table">
+          <caption>
+            ________________
+          </caption>
+          <thead>
+            <tr>
+              <th>Lap</th>
+              <th>Split</th>
+              <th>Total Time</th>
+            </tr>
+          </thead>
+          <tbody id="rows-laps"></tbody>
+        </table>
+      </section>
+    </main>
+
+    <template id="laps-template">
+      <tr>
+        <td class="laps"></td>
+        <td class="split digital-font"></td>
+        <td class="total-time digital-font"></td>
+      </tr>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>

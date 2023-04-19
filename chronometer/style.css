@@ -1,0 +1,114 @@
+/* @link https://utopia.fyi/type/calculator?c=240,16,1.2,960,20,1.5,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+  --step--2: clamp(0.56rem, calc(0.74rem + -0.31vw), 0.69rem);
+  --step--1: clamp(0.83rem, calc(0.83rem + 0vw), 0.83rem);
+  --step-0: clamp(1rem, calc(0.92rem + 0.56vw), 1.25rem);
+  --step-1: clamp(1.2rem, calc(0.98rem + 1.5vw), 1.88rem);
+  --step-2: clamp(1.44rem, calc(0.98rem + 3.05vw), 2.81rem);
+  --step-3: clamp(1.73rem, calc(0.9rem + 5.53vw), 4.22rem);
+  --step-4: clamp(2.07rem, calc(0.66rem + 9.45vw), 6.33rem);
+  --step-5: clamp(2.49rem, calc(0.15rem + 15.57vw), 9.49rem);
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: 'Digital Dismay';
+  src: url('Digital-Dismay.otf') format('truetype');
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #eeeeee;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  background-color: #000000;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.table {
+  border-spacing: 1rem;
+}
+
+.d-none {
+  display: none;
+}
+
+.digital-font {
+  font-family: 'Digital Dismay', sans-serif;
+  color: #14ffec;
+}
+
+.laps {
+  color: #f15412;
+}
+
+.time {
+  font-size: var(--step-5);
+}
+
+.panel-laps {
+  margin: 1rem 0;
+  font-size: var(--step-0);
+}
+
+.ms {
+  font-size: var(--step-2);
+}
+
+.buttons {
+  margin: 1rem 0;
+}
+
+.buttons button {
+  margin: 0.5rem 1rem;
+  padding: 0.5rem;
+  width: 5rem;
+  font-family: sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  opacity: 0.8;
+}
+
+.btn-start {
+  background-color: #50d890;
+}
+
+.btn-stop {
+  background-color: #ff5656;
+}
+
+.btn-reset {
+  background-color: #f5ff8d;
+}
+
+.btn-split {
+  background-color: #8758ff;
+}
