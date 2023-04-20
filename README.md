@@ -15,6 +15,7 @@ This repository contains a collection of JavaScript projects for developers of a
 | [Animated Login Page](https://github.com/MaxDecapitars/1Day1Project/tree/main/animated-login-page) | [View]() |
 | [Testimonial Page](https://github.com/MaxDecapitars/1Day1Project/tree/main/testimonial-page)       | [View]() |
 | [Chronometer](https://github.com/MaxDecapitars/1Day1Project/tree/main/chronometer)                 | [View]() |
+| [Password Generator](https://github.com/MaxDecapitars/1Day1Project/tree/main/password-generator)   | [View]() |
 
 ### How to use this repository
 
