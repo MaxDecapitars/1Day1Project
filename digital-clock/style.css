@@ -33,7 +33,7 @@ body {
 
 .hour::before {
   content: '88:88:88';
-  color: #04181a;
+  color: #04181a4a;
   position: absolute;
   text-shadow: none;
   z-index: -1;
